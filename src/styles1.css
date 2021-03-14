@@ -1,0 +1,115 @@
+.cross-close {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  background: indianred;
+  color: white;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.react-datepicker__header  {
+  z-index : 2;
+}
+
+.search-box {
+  background: #cccccc56;
+  width: 60%;
+  font-size: 120%;
+  outline: none;
+  border: none;
+  margin-top: 1em;
+  padding: 10px 6px;
+  transition: 0.4s ease-in-out;
+}
+.search-box:focus {
+  width: 80%;
+}
+.creator {
+  background: dodgerblue;
+  color: white;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  padding: 16px;
+  font-size: 110%;
+  text-transform: uppercase;
+  transition: 0.4s ease-in-out;
+  opacity: 0.7;
+  border-radius: 5px;
+  margin: 1em;
+  box-shadow: 0 4px 8px 0 #1e90ff56, 0 6px 20px 0 #1e90ff56;
+}
+.creator:hover {
+  transform: scale(1.05);
+  opacity: 1;
+}
+.card-options {
+  position: absolute;
+  bottom: 30px;
+}
+.card-footer {
+  width: calc(100% - 8px);
+  background: #212121;
+  padding: 4px 4px;
+  position: absolute;
+  bottom: 0;
+  color: white;
+}
+.card-label {
+  background: dodgerblue;
+  min-height: 15%;
+  top: 3%;
+  color: white;
+  left: -6%;
+  position: absolute;
+  width: 50%;
+  box-shadow: 0 4px 8px 0 #00000056, 0 6px 20px 0 #00000056;
+}
+.card button {
+  background: dodgerblue;
+  color: white;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  padding: 4px;
+  font-size: 100%;
+  text-transform: uppercase;
+  transition: 0.4s ease-in-out;
+  border-radius: 5px;
+  margin: 0.4em;
+}
+.card button:hover {
+  box-shadow: 0 2px 4px 0 #00000056, 0 3px 10px 0 #00000056;
+}
+.card {
+  margin: 1em;
+  position: relative;
+  width: 25%;
+  height: 50%;
+  padding: 4px;
+  background: white;
+  border-radius: 2px;
+  color: black;
+  box-shadow: 0 4px 8px 0 #00000056, 0 6px 20px 0 #00000056;
+}
+.notes-wrapper {
+  width: 90%;
+  height: 70vh;
+  background: red;
+}
+.modal {
+  z-index: 100;
+  width: 100%;
+  height: 100vh;
+  background: #000000a8;
+  display: none;
+  position: absolute;
+}
+.notes-container {
+  height: 100vh;
+  position: relative;
+  width: 100%;
+  color: white;
+}
